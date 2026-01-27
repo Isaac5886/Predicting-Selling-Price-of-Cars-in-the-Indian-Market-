@@ -99,7 +99,7 @@ Although Random Forest Regressor achieved the highest performance, it was not us
 ```Bash
 pip install -r requirements.txt
 streamlit run app.py
--------------------------------
+````
 
 # 📌 Future Improvements
 * Hyperparameter tuning for improved accuracy
