@@ -108,7 +108,7 @@ Although Random Forest Regressor achieved the best performance, it was not deplo
 The trained Gradient Boosting Regressor was deployed as an interactive web application using **Streamlit**.
 
 ### 🔗 Live App
-👉 https://your-streamlit-app-link-here
+👉 https://indian-app.streamlit.app
 
 ### 📌 Application Features
 - User-friendly interface for entering car specifications
