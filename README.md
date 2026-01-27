@@ -22,7 +22,7 @@ The objective of this project is to build a machine learning model that predicts
 # 📊 Dataset Description
 * Source: https://www.kaggle.com/datasets/manishkr1754/cardekho-used-car-data
 
-* Having 15,411 records, 13 features and 1 Target
+* The dataset contains 15,411 records, 13 input features, and 1 target variable.
 
 * Categorical Features: *car_name*, *brand*, *model*, *seller_type*, *fuel_type*, *transmission_type*
 
