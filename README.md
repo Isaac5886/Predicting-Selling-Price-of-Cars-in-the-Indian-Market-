@@ -129,11 +129,13 @@ streamlit run app.py
 ````
 
 # 📌 Future Improvements
-* Hyperparameter tuning for improved accuracy
-* Model compression techniques for Random Forest deployment
-* Integration with live car listing APIs
-* Support for multiple currencies
-* Addition of confidence intervals for predictions
+* Hyperparameter tuning for improved accuracy.
+* Model compression techniques for Random Forest deployment.
+* Integration with live car listing APIs.
+* Support for multiple currencies.
+* Addition of confidence intervals for predictions.
+* Deploy the Streamlit application on AWS EC2 for improved scalability.
+* Store trained models in AWS S3 for version control and persistence.
 
 # 👤 Author
 Agboola Isaacoluwatomiwa
