@@ -69,14 +69,10 @@ Evaluation metrics used:
 
 # Performance Summary
 | Model | R² Score |
-|------|--------- |
-
+|------ |--------- |
 | Random Forest Regressor | ⭐ Highest |
-
 | Gradient Boosting Regressor | Second Best |
-
 | XGBoost Regressor |Competitive |
-
 | ElasticNet & Lasso |  Baseline |
 
 # 🚀 Model Deployment Decision
