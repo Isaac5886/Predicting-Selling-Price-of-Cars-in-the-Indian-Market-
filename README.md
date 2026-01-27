@@ -80,12 +80,12 @@ Evaluation metrics used:
 * R² Score
 - Performance Summary
   
-| Model | R² Score |
-|------ |--------- |
-| Random Forest Regressor | ⭐ Highest |
-| Gradient Boosting Regressor | Second Best |
-| XGBoost Regressor | Competitive |
-| ElasticNet & Lasso |  Baseline |
+| Model	MAE	RMSE	R2
+3	Elasticnet	190564.622050	448233.364855	0.733106
+0	Lasso	180678.127175	405365.979320	0.781714
+2	XGBRegressor	100771.484375	249650.981460	0.917206
+1	Gradient Boosting	129058.187362	247909.754467	0.918357
+4	Random Forest Regressor	100074.031143	221269.461390	0.934961|
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
