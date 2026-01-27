@@ -1,18 +1,15 @@
 # 🚗 Predicting Selling Price of Cars in the Indian Market
 A machine learning regression project for predicting used car prices in the Indian market.
 
-# Table of Contents
-- Project Title
-- Dataset Description
-- Table of Contents
+## Table of Contents
 - Project Overview
 - Dataset Description
 - Data Preprocessing
 - Exploratory Data Analysis
 - Machine Learning Models Used
-- Model Evaluation 
+- Model Evaluation
 - Model Deployment Decision
-- Streamlit Web Application 
+- Streamlit Web Application
 - Tech Stack
 - How to Run the Project
 - Future Improvements
