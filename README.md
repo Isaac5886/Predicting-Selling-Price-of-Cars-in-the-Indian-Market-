@@ -1,14 +1,15 @@
 # 🚗 Predicting Selling Price of Cars in the Indian Market
+A machine learning regression project that predict used car prices in the Indian market using Gradient Boosting Regressor.
 
 # 📌 Project Overview
-The objective of this project is to build a machine learning model that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features. This solution can assist: Buyers in evaluating fair prices, Sellers in pricing vehicles competitively, Online automobile platforms in automating price estimation
+The objective of this project is to build a machine learning model that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features. This solution can assist buyers in evaluating fair prices, sellers in pricing vehicles competitively, and online automobile platforms in automating price estimation.
 
 # 📊 Dataset Description
 The dataset used in this project was obtained from Kaggle (CarDekho).
 * Dataset size: 15,411 records
 * Number of features: 14
 
-# Features
+** Features **
 - *car_name*
 - *brand*
 - *model*
@@ -72,7 +73,7 @@ Evaluation metrics used:
 |------ |--------- |
 | Random Forest Regressor | ⭐ Highest |
 | Gradient Boosting Regressor | Second Best |
-| XGBoost Regressor |Competitive |
+| XGBoost Regressor | Competitive |
 | ElasticNet & Lasso |  Baseline |
 
 # 🚀 Model Deployment Decision
@@ -95,9 +96,9 @@ Although Random Forest Regressor achieved the highest performance, it was not us
 * Jupyter Notebook
 
 # 🧪 How to Run the Project
-\Bash\
-\pip install -r requirements.txt\
-\streamlit run app.py\
+```Bash
+pip install -r requirements.txt
+streamlit run app.py
 
 # 📌 Future Improvements
 * Hyperparameter tuning for improved accuracy
