@@ -2,17 +2,21 @@
 A machine learning regression project for predicting used car prices in the Indian market.
 
 # Table of Contents
-- project Overview
+- Project Title
+- Dataset Description
+- Table of Contents
+- Project Overview
 - Dataset Description
 - Data Preprocessing
 - Exploratory Data Analysis
 - Machine Learning Models Used
-- Model Evaluation
+- Model Evaluation 
 - Model Deployment Decision
--  Tech Stack
--  How to Run the Project
--  Future Improvements
--  Author
+- Streamlit Web Application 
+- Tech Stack
+- How to Run the Project
+- Future Improvements
+- Author
 
 
 # 📌 Project Overview
@@ -53,7 +57,7 @@ The objective of this project is to build a machine learning model that predicts
 
 6. Train-Test Split:
 - 80% training and 20% testing split.
-- Fixed Random state used for reproducibiolity.
+- Fixed random state used for reproducibility.
 
 # 🔍 Exploratory Data Analysis (EDA)
 - Key Insights
@@ -99,10 +103,22 @@ Although Random Forest Regressor achieved the best performance, it was not deplo
 * Smaller model size
 * Suitable for Streamlit deployment
 
+  ## 🌐 Web Application (Streamlit)
+
+The trained Gradient Boosting Regressor was deployed as an interactive web application using **Streamlit**.
+
+### 🔗 Live App
+👉 https://your-streamlit-app-link-here
+
+### 📌 Application Features
+- User-friendly interface for entering car specifications
+- Real-time selling price prediction
+- Supports multiple car attributes such as fuel type, transmission, mileage, engine power, and vehicle age
+- Lightweight and fast inference suitable for web deployment
+
 # 🛠️ Tech Stack
 * Python
-* Pandas, NumPy, Matplotlib, Seaborn
-* Matplotlib & Seaborn
+* Pandas, NumPy, Matplotlib & Seaborn
 * Scikit-learn
 * XGBoost
 * Streamlit (for web app deployment)
