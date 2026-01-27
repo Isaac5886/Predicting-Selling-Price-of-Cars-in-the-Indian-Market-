@@ -5,26 +5,13 @@ A machine learning regression project for predicting used car prices in the Indi
 The objective of this project is to build a machine learning model that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features. This solution can assist buyers in evaluating fair prices, sellers in pricing vehicles competitively, and online automobile platforms in automating price estimation.
 
 # 📊 Dataset Description
-The dataset used in this project was obtained from Kaggle (CarDekho).
-* Dataset size: 15,411 records
-* Number of features: 14
+The dataset used in this project was obtained from Kaggle  know as CarDekho https://share.google/o2u0tIAT7MNzX75mv having 15,411 records and 14 features
 
-** Features **
-- *car_name*
-- *brand*
-- *model*
-- *vehicle_age*
-- *km_driven*
-- *seller_type*
-- *fuel_type*
-- *transmission_type*
-- *mileage*
-- *engine*
-- *max_power*
-- *seats*
-- *selling_price (Target variable)*
-* Numerical features: 7
-* Categorical features: 6
+* Numerical Features: *car_name*, *brand*, *model*, *vehicle_age*, *km_driven*, *seller_type*, *fuel_type*
+
+ * Numerical Features: *transmission_type*, *mileage*, *engine*, *max_power*, *seats*
+
+* Target Variables: *selling_price 
 
 # 🔍 Exploratory Data Analysis (EDA)
 Several visualizations were performed to understand the data distribution and relationships:
