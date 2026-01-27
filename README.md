@@ -90,7 +90,7 @@ Evaluation metrics used:
 |	Lasso	| 180678.127175 |	405365.979320	| 0.781714 |
 |	XGBRegressor |	100771.484375	| 249650.981460	| 0.917206 |
 |	Gradient Boosting	| 129058.187362	| 247909.754467 | 	0.918357
-|	** Random Forest Regressor **|	** 100074.031143 **	| ** 221269.461390 **	|** 0.934961**⭐|
+|	**Random Forest Regressor**|	**100074.031143**	| **221269.461390**	|**0.934961**⭐|
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
