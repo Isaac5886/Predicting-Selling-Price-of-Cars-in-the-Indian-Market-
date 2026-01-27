@@ -9,21 +9,21 @@ The dataset used in this project was obtained from Kaggle (CarDekho).
 * Number of features: 14
 
 # Features
-car_name
-brand
-model
-vehicle_age
-km_driven
-seller_type
-fuel_type
-transmission_type
-mileage
-engine
-max_power
-seats
-selling_price (Target variable)
-Numerical features: 7
-Categorical features: 6
+- *car_name*
+- *brand*
+- *model*
+- *vehicle_age*
+- *km_driven*
+- *seller_type*
+- *fuel_type*
+- *transmission_type*
+- *mileage*
+- *engine*
+- *max_power*
+- *seats*
+- *selling_price (Target variable)*
+* Numerical features: 7
+* Categorical features: 6
 
 # 🔍 Exploratory Data Analysis (EDA)
 Several visualizations were performed to understand the data distribution and relationships:
