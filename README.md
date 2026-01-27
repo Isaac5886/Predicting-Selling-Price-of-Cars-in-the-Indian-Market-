@@ -78,13 +78,14 @@ Evaluation metrics used:
 * MAE (Mean Absolute Error)
 * RMSE (Root Mean Squared Error)
 * R² Score
-- Performance Summary
+
+### Model Performance Comparison
   
 | Model	| MAE	| RMSE	| R2 |
 |-------|-----|-------|----|
 | Elasticnet	| 190564.622050	| 448233.364855 | 	0.733106 |
 |	Lasso	| 180678.127175 |	405365.979320	| 0.781714 |
-|	XGBRegressor |	100771.484375	| 249650.981460	Z| 0.917206 |
+|	XGBRegressor |	100771.484375	| 249650.981460	| 0.917206 |
 |	Gradient Boosting	| 129058.187362	| 247909.754467 | 	0.918357
 |	Random Forest Regressor |	100074.031143	| 221269.461390	| 0.934961|
 
