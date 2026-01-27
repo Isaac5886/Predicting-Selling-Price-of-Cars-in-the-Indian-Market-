@@ -19,7 +19,9 @@ A machine learning regression project for predicting used car prices in the Indi
 The objective of this project is to build a machine learning model that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features. This solution can assist buyers in evaluating fair prices, sellers in pricing vehicles competitively, and online automobile platforms in automating price estimation.
 
 # 📊 Dataset Description
-The dataset used in this project was obtained from Kaggle  know as CarDekho https://share.google/o2u0tIAT7MNzX75mv having 15,411 records and 14 features
+* Source: https://share.google/o2u0tIAT7MNzX75mv
+
+* Having 15,411 records, 13 features and 1 Target
 
 * Categorical Features: *car_name*, *brand*, *model*, *seller_type*, *fuel_type*, *transmission_type*
 
@@ -99,12 +101,13 @@ Although Random Forest Regressor achieved the best performance, it was not deplo
 
 # 🛠️ Tech Stack
 * Python
-* Pandas & NumPy
+* Pandas, NumPy, Matplotlib, Seaborn
 * Matplotlib & Seaborn
 * Scikit-learn
 * XGBoost
-* Streamlit
+* Streamlit (for web app deployment)
 * Jupyter Notebook
+* Pickle (model saving)
 
 # 🧪 How to Run the Project
 ```Bash
