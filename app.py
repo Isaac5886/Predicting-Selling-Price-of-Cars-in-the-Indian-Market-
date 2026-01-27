@@ -119,7 +119,7 @@ with st.sidebar:
     st.info(
         """
         This application uses a **Gradient Boosting Regressor** model 
-        trained on over **150,000 vehicles** records from the CarDekho dataset to 
+        trained on over **150,00 vehicles** records from the CarDekho dataset to 
         predict used car prices in the Indian market.
         """
     )
@@ -158,7 +158,7 @@ st.markdown(
 st.markdown("""
     <div class="info-card">
         <strong>ℹ️ How it works:</strong> Enter your car's details below, and our machine learning model 
-        will predict its market value based on 154,111 historical sales data points.
+        will predict its market value based on 154,11 historical sales data points.
     </div>
 """, unsafe_allow_html=True)
 
