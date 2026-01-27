@@ -68,12 +68,16 @@ Evaluation metrics used:
 * R² Score
 
 # Performance Summary
-|Model | R² Score|
------------------
-|Random Forest Regressor| ⭐ Highest |
-| Gradient Boosting Regressor|Second Best |
-| XGBoost Regressor|Competitive|
-|ElasticNet & Lasso| Baseline|
+| Model | R² Score |
+|------|--------- |
+
+| Random Forest Regressor | ⭐ Highest |
+
+| Gradient Boosting Regressor | Second Best |
+
+| XGBoost Regressor |Competitive |
+
+| ElasticNet & Lasso |  Baseline |
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the highest performance, it was not used for deployment because:
