@@ -1,6 +1,20 @@
 # 🚗 Predicting Selling Price of Cars in the Indian Market
 A machine learning regression project for predicting used car prices in the Indian market.
 
+# Table of Contents
+- project Overview
+- Dataset Description
+- Data Preprocessing
+- Exploratory Data Analysis
+- Machine Learning Models Used
+- Model Evaluation
+- Model Deployment Decision
+-  Tech Stack
+-  How to Run the Project
+-  Future Improvements
+-  Author
+
+
 # 📌 Project Overview
 The objective of this project is to build a machine learning model that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features. This solution can assist buyers in evaluating fair prices, sellers in pricing vehicles competitively, and online automobile platforms in automating price estimation.
 
@@ -9,7 +23,7 @@ The dataset used in this project was obtained from Kaggle  know as CarDekho http
 
 * Categorical Features: *car_name*, *brand*, *model*, *seller_type*, *fuel_type*, *transmission_type*
 
- * Numerical Features:  *mileage*, *engine*, *max_power*, *seats*, *vehicle_age*, *km_driven*, *Column1*
+ * Numerical Features:  *mileage*, *engine*, *max_power*, *seats*, *vehicle_age*, *km_driven*
 
 * Target Variables: *selling_price*
 
@@ -17,57 +31,42 @@ The dataset used in this project was obtained from Kaggle  know as CarDekho http
 
 1. Missing Value Treatment:
 - Checked for missing values across all features.
-- No missing values were found in the dataset, so no imputation was required.
+- No missing values were found; therefore, no imputation was required.
 
 2.  Outlier Analysis:
 - Performed descriptive statistical analysis to understand feature distributions.
 
 3. Encoding:
-- One-Hot Encoding applied to all categorical features (car_name, seller_type, fuel_type, transmission_type) using pd.get_dummies().
-- Ensured encoded features were converted to integer format for model compatibility.
+- One-Hot Encoding applied to categorical features using pd.get_dummies().
+- Encoded features were converted to integer format for model compatibility.
 
 4. Feature Engineering:
-- Removed redundant and non-informative columns (Column1).
-- Dropped brand and model features to reduce redundancy, as brand and model information is already captured in car_name.
-- Selected relevant numerical features for modeling to reduce dimensionality.
+- Removed non-informative index column (Column1).
+- Dropped redundant features (brand, model) to reduce multicollinearity.
+- Retained relevant numerical and categorical predictors.
 
 5. Feature Scaling:
-- Applied StandardScaler to standardize numerical features.
+- Applied StandardScaler to numerical features.
 - Scaling was performed after train-test split to prevent data leakage.
 
 6. Train-Test Split:
-- Split data into training (80%) and testing (20%) sets using a fixed random state for reproducibility.
+- 80% training and 20% testing split.
+- Fixed Random state used for reproducibiolity.
 
 # 🔍 Exploratory Data Analysis (EDA)
-Several visualizations were performed to understand the data distribution and relationships:
-# Key Insights
-* Engine size and max power show strong positive correlation with selling price
-* Vehicle age and mileage are negatively correlated with selling price
-* Luxury brands (Ferrari, Rolls-Royce, Bentley) have the highest average prices
-* Electric vehicles have higher average selling prices compared to petrol and diesel
-* Dealer-listed cars tend to have higher prices than individual sellers
+- Key Insights
+* Engine size and max power show strong positive correlation with selling price.
+* Vehicle age and mileage are negatively correlated with selling price.
+* Luxury brands (Ferrari, Rolls-Royce, Bentley) command the highest prices.
+* Electric vehicles show higher average prices compared to petrol and diesel.
+* Dealer-listed cars tend to have higher prices than individual sellers.
 
 # EDA techniques used:
-* Correlation heatmap
-* Brand-wise price comparison
-* Model-wise price analysis
-* Fuel type, transmission type, and seller type analysis
-
-# ⚙️ Methodology
-1. Data Preprocessing
-* Removal of irrelevant and redundant columns
-* Handling missing values
-* Conversion of categorical variables
-2. Feature Engineering
-* Dropped non-essential features such as:
-* brand
-* model
-* car_name
-* One-hot encoding applied using pd.get_dummies()
-*  Feature scaling using StandardScaler
+* Correlation heatmap.
+* Brand-wise and Model-wise price comparison.
+* Fuel type, transmission type, and seller type analysis.
 
 # 🤖 Machine Learning Models Used
-The following regression models were trained and evaluated:
 * ElasticNet Regression
 * Lasso Regression
 * XGBoost Regressor
@@ -79,8 +78,8 @@ Evaluation metrics used:
 * MAE (Mean Absolute Error)
 * RMSE (Root Mean Squared Error)
 * R² Score
-
-# Performance Summary
+- Performance Summary
+  
 | Model | R² Score |
 |------ |--------- |
 | Random Forest Regressor | ⭐ Highest |
@@ -89,9 +88,7 @@ Evaluation metrics used:
 | ElasticNet & Lasso |  Baseline |
 
 # 🚀 Model Deployment Decision
-Although Random Forest Regressor achieved the highest performance, it was not used for deployment because:
-* Model size ≈ 95MB
-* GitHub deployment limit ≈ 25MB
+Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
 
 # ✅ Gradient Boosting Regressor was selected for deployment because:
 * High predictive performance
