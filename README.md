@@ -68,7 +68,8 @@ Evaluation metrics used:
 * R² Score
 
 # Performance Summary
-|Model | R² Score||
+|Model | R² Score|
+-----------------
 |Random Forest Regressor| ⭐ Highest |
 | Gradient Boosting Regressor|Second Best |
 | XGBoost Regressor|Competitive|
