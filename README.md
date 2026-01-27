@@ -9,36 +9,34 @@ The dataset used in this project was obtained from Kaggle  know as CarDekho http
 
 * Categorical Features: *car_name*, *brand*, *model*, *seller_type*, *fuel_type*, *transmission_type*
 
- * Numerical Features:  *mileage*, *engine*, *max_power*, *seats*, *vehicle_age*, *km_driven*
+ * Numerical Features:  *mileage*, *engine*, *max_power*, *seats*, *vehicle_age*, *km_driven*, *Column1*
 
 * Target Variables: *selling_price*
 
 # 🧹 Data Preprocessing
 
-* Missing Value Treatment:
-- Checked for missing values across all features
-- No missing values were found in the dataset, so no imputation was required
+1. Missing Value Treatment:
+- Checked for missing values across all features.
+- No missing values were found in the dataset, so no imputation was required.
 
-* Outlier Analysis:
-- Performed descriptive statistical analysis to understand feature distributions
-- Identified potential outliers in km_driven, engine, and max_power through summary statistics
-- Outliers were retained to preserve real-world price variability in used car data
+2.  Outlier Analysis:
+- Performed descriptive statistical analysis to understand feature distributions.
 
-* Encoding:
-- One-Hot Encoding applied to all categorical features (car_name, seller_type, fuel_type, transmission_type) using pd.get_dummies()
-- Ensured encoded features were converted to integer format for model compatibility
+3. Encoding:
+- One-Hot Encoding applied to all categorical features (car_name, seller_type, fuel_type, transmission_type) using pd.get_dummies().
+- Ensured encoded features were converted to integer format for model compatibility.
 
-* Feature Engineering:
-- Removed redundant and non-informative columns (Column1)
-- Dropped brand and model features to reduce redundancy, as brand and model information is already captured in car_name
-- Selected relevant numerical features for modeling to reduce dimensionality
+4. Feature Engineering:
+- Removed redundant and non-informative columns (Column1).
+- Dropped brand and model features to reduce redundancy, as brand and model information is already captured in car_name.
+- Selected relevant numerical features for modeling to reduce dimensionality.
 
-* Feature Scaling:
-- Applied StandardScaler to standardize numerical features
-- Scaling was performed after train-test split to prevent data leakage
+5. Feature Scaling:
+- Applied StandardScaler to standardize numerical features.
+- Scaling was performed after train-test split to prevent data leakage.
 
-* Train-Test Split:
-- Split data into training (80%) and testing (20%) sets using a fixed random state for reproducibility
+6. Train-Test Split:
+- Split data into training (80%) and testing (20%) sets using a fixed random state for reproducibility.
 
 # 🔍 Exploratory Data Analysis (EDA)
 Several visualizations were performed to understand the data distribution and relationships:
