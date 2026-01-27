@@ -7,9 +7,9 @@ The objective of this project is to build a machine learning model that predicts
 # 📊 Dataset Description
 The dataset used in this project was obtained from Kaggle  know as CarDekho https://share.google/o2u0tIAT7MNzX75mv having 15,411 records and 14 features
 
-* Numerical Features: *car_name*, *brand*, *model*, *vehicle_age*, *km_driven*, *seller_type*, *fuel_type*
+* Categorical Features: *car_name*, *brand*, *model*, *seller_type*, *fuel_type*, *transmission_type*
 
- * Numerical Features: *transmission_type*, *mileage*, *engine*, *max_power*, *seats*
+ * Numerical Features:  *mileage*, *engine*, *max_power*, *seats*, *vehicle_age*, *km_driven*
 
 * Target Variables: *selling_price 
 
