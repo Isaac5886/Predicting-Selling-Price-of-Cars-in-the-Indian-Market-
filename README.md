@@ -205,4 +205,4 @@ http://localhost:8501
 
 # 👤 Author
 Agboola Isaacoluwatomiwa
-Machine Learning / Data Science Enthusiast
+Machine Learning
