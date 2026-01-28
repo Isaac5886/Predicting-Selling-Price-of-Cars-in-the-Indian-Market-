@@ -35,7 +35,7 @@ The project demonstrates the complete machine learning lifecycle, including data
 
  * Numerical Features:  *mileage*, *engine*, *max_power*, *seats*, *vehicle_age*, *km_driven*
 
-* Target Variables: *selling_price*
+* Target Variable: *selling_price*
 
 # 🧹 Data Preprocessing
 
@@ -108,7 +108,7 @@ The project demonstrates the complete machine learning lifecycle, including data
 - **MAE:** 100074.031143
 
 # 🚀 Model Deployment Decision
-Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
+Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits. Gradient Boosting Regressor is selected due to smaller model size and deployment constraints.
 
 # 🌐 Streamlit Web Application
 
