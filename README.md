@@ -3,10 +3,10 @@ A machine learning regression project for predicting used car prices in the Indi
 
 ## Table of Contents
 - [Project Overview](#-project-overview)
-- Dataset Description
-- Data Preprocessing
-- Exploratory Data Analysis
-- Machine Learning Models Used
+- [Dataset Description](#-dataset-description)
+- [Data Preprocessing](#-data-preprocessing)
+- [Exploratory Data Analysis](#-exploratory-data-analysis)
+- [Machine Learning Models Used](#machine-learning-models-used)
 - Model Evaluation
 - Model Deployment Decision
 - Streamlit Web Application
