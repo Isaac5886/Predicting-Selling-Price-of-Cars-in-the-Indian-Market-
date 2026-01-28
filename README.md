@@ -130,8 +130,8 @@ streamlit run app.py
 
 # 📌 Future Improvements
 ## 📌 Future Improvements
-- Perform hyperparameter tuning to further improve model accuracy
-- Apply model compression techniques to enable Random Forest deployment
+- Perform hyperparameter tuning to improve regression performance (R², RMSE, MAE).
+- Apply model compression techniques to enable Gradient Boosting Regressor deployment
 - Integrate live car listing APIs for real-time price estimation
 - Add support for multiple currencies
 - Provide confidence intervals for predicted prices
