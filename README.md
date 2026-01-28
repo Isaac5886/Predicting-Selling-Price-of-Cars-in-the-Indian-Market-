@@ -10,8 +10,10 @@ A machine learning regression project for predicting used car prices in the Indi
 - Model Evaluation
 - Model Deployment Decision
 - Streamlit Web Application
-- Tech Stack
 - How to Run the Project
+- Live App
+- Application Features
+- Tech Stack
 - Future Improvements
 - Author
 
@@ -97,7 +99,7 @@ The project demonstrates the complete machine learning lifecycle, including data
 |	**Random Forest Regressor**|	**100074.031143**	| **221269.461390**	|**0.934961**⭐|
 
 ### Final model
-- **Selected Model:** Random Forest Regressor
+- **Best Model:** Random Forest Regressor
 
 - **R2 Score:** 0.934961
 
@@ -108,7 +110,7 @@ The project demonstrates the complete machine learning lifecycle, including data
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
 
-# 🌐 Web Application (Streamlit)
+# 🌐 Streamlit Web Application
 
 The trained Gradient Boosting Regressor was deployed as an interactive web application using **Streamlit**.
 
