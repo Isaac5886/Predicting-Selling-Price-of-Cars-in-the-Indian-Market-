@@ -5,17 +5,17 @@ A machine learning regression project for predicting used car prices in the Indi
 - [Project Overview](#-project-overview)
 - [Dataset Description](#-dataset-description)
 - [Data Preprocessing](#-data-preprocessing)
-- [Exploratory Data Analysis](#-exploratory-data-analysis)
+- [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
 - [Machine Learning Models Used](#-machine-learning-models-used)
 - [Model Evaluation](#-model-evaluation)
-- Model Deployment Decision
-- Streamlit Web Application
-- How to Run the Project
-- Live App
-- Application Features
-- Tech Stack
-- Future Improvements
-- Author
+- [Model Deployment Decision](#-model-deployment-decision)
+- [Streamlit Web Application](#-streamlit-web-application)
+- [How to Run the Project](#-how-to-run-the-project)
+- [Live App](#-live-app)
+- [Application Features](#-application-features)
+- [Tech Stack](#-tech-stack)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
 
 
 # 📌 Project Overview
