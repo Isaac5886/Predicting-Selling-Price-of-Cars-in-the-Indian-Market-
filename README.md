@@ -160,11 +160,17 @@ http://localhost:8501
 - Supports multiple car attributes such as fuel type, transmission, mileage, engine power, and vehicle age.
 - Lightweight and fast inference suitable for web deployment.
 
-  <img width="1898" height="932" alt="app1" src="https://github.com/user-attachments/assets/0dda9919-4372-4753-a3f8-ebc26a0d61c9" />
+<img width="1920" height="808" alt="app1" src="https://github.com/user-attachments/assets/62c63829-bd85-4bff-a852-309482bf1c2c" />
 
-<img width="1901" height="923" alt="app2" src="https://github.com/user-attachments/assets/21a4f6b9-516a-4efa-becf-75e1d6a3dc34" />
 
-<img width="1907" height="922" alt="app5" src="https://github.com/user-attachments/assets/af5a96df-570a-40ba-b7b1-bfca96caddf3" />
+<img width="1907" height="872" alt="app2" src="https://github.com/user-attachments/assets/7110fb54-160b-48eb-be2c-380ab35702fc" />
+
+
+<img width="1911" height="863" alt="app3" src="https://github.com/user-attachments/assets/8dde83ec-9817-4b8b-8ea5-0b72f2cd1ff5" />
+
+
+<img width="1913" height="863" alt="app4" src="https://github.com/user-attachments/assets/3953fc36-a42d-4ac1-b237-94f78dad0ec7" />
+
 
 
 # 🛠️ Tech Stack
