@@ -39,27 +39,28 @@ The project demonstrates the complete machine learning lifecycle, including data
 
 # 🧹 Data Preprocessing
 
-1. Missing Value Treatment:
+1. **Missing Value Treatment:**
 - Checked for missing values across all features.
 - No missing values were found; therefore, no imputation was required.
 
-2.  Outlier Analysis:
+2.  **Outlier Analysis:**
 - Performed descriptive statistical analysis to understand feature distributions.
 
-3. Encoding:
+3. **Encoding:**
 - One-Hot Encoding applied to categorical features using pd.get_dummies().
 - Encoded features were converted to integer format for model compatibility.
 
-4. Feature Engineering:
-- Removed non-informative index column (Column1).
-- Dropped redundant features (brand, model) to reduce multicollinearity.
-- Retained relevant numerical and categorical predictors.
+4. **Feature Engineering:**
+- Removed non-informative index column (`Column1`).
+- Brand and model features were used during EDA for insights and visualization, 
+  but dropped during model training to reduce multicollinearity and high-cardinality noise.
+- Retained relevant numerical and categorical predictors for modeling.
 
-5. Feature Scaling:
+5. **Feature Scaling:**
 - Applied StandardScaler to numerical features.
 - Scaling was performed after train-test split to prevent data leakage.
 
-6. Train-Test Split:
+6. **Train-Test Split:**
 - 80% training and 20% testing split.
 - Fixed random state used for reproducibility.
 
