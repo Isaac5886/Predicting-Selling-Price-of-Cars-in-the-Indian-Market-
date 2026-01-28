@@ -98,7 +98,7 @@ The project demonstrates the complete machine learning lifecycle, including data
 |	Gradient Boosting	| 129058.187362	| 247909.754467 | 	0.918357
 |	**Random Forest Regressor**|	**100074.031143**	| **221269.461390**	|**0.934961**⭐|
 
-### Final model
+### Final Model
 - **Best Model:** Random Forest Regressor
 
 - **R2 Score:** 0.934961
