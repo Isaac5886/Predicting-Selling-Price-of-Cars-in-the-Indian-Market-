@@ -129,7 +129,8 @@ The trained Gradient Boosting Regressor was deployed as an interactive web appli
 pip install -r requirements.txt
 ```
 2. Run the Streamlit app:
-   ````
+
+ ````Bash
 streamlit run app.py
 ````
 
