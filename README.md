@@ -162,12 +162,15 @@ http://localhost:8501
 
 <img width="1920" height="808" alt="app1" src="https://github.com/user-attachments/assets/62c63829-bd85-4bff-a852-309482bf1c2c" />
 
+<br<br>
 
 <img width="1907" height="872" alt="app2" src="https://github.com/user-attachments/assets/7110fb54-160b-48eb-be2c-380ab35702fc" />
 
+<br<br>
 
 <img width="1911" height="863" alt="app3" src="https://github.com/user-attachments/assets/8dde83ec-9817-4b8b-8ea5-0b72f2cd1ff5" />
 
+<br<br>
 
 <img width="1913" height="863" alt="app4" src="https://github.com/user-attachments/assets/3953fc36-a42d-4ac1-b237-94f78dad0ec7" />
 
