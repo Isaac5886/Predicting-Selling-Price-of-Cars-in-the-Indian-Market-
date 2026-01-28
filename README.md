@@ -16,8 +16,14 @@ A machine learning regression project for predicting used car prices in the Indi
 - Author
 
 
-# 📌 Project Overview
-The objective of this project is to build a machine learning model that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features. This solution can assist buyers in evaluating fair prices, sellers in pricing vehicles competitively, and online automobile platforms in automating price estimation.
+#📌 Project Overview
+The objective of this project is to build an end-to-end machine learning solution that predicts the selling price of used cars in the Indian market based on vehicle specifications and seller-related features.
+In addition to model development and evaluation, a Streamlit web application was built to deploy the trained model and provide an interactive, user-friendly interface for real-time price prediction.
+This solution can assist:
+Buyers in evaluating fair market prices
+Sellers in pricing vehicles competitively
+Online automobile platforms in automating price estimation workflows
+The project demonstrates the complete machine learning lifecycle, including data preprocessing, exploratory data analysis, model training, evaluation, and deployment.
 
 # 📊 Dataset Description
 * Source: https://www.kaggle.com/datasets/manishkr1754/cardekho-used-car-data
