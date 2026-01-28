@@ -126,8 +126,8 @@ with st.sidebar:
     
     st.markdown("### 🎯 Model Performance")
     st.metric("R² Score", f"{r2:,.3f}")
-    st.metric("MAE", f"₹{mae:,.0f}TND")
-    st.metric("RMSE", f"₹{rmse:,.0f}TND")
+    st.metric("MAE", f"₹{mae:,.0f}")
+    st.metric("RMSE", f"₹{rmse:,.0f}")
     
     st.markdown("---")
     
