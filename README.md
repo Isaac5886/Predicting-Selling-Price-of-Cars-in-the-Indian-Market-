@@ -57,8 +57,6 @@ The objective of this project is to build a machine learning model that predicts
 - Fixed random state used for reproducibility.
 
 # 🔍 Exploratory Data Analysis (EDA)
-*🔍 Exploratory Data Analysis (EDA)
-
 ### EDA Approach
 - **Descriptive Statistics:** Summarized central tendency and dispersion for numerical features.
 - **Data Visualization:** Used histograms, box plots, scatter plots, and bar charts to identify trends and anomalies.
@@ -94,10 +92,10 @@ The objective of this project is to build a machine learning model that predicts
 |	**Random Forest Regressor**|	**100074.031143**	| **221269.461390**	|**0.934961**⭐|
 
 ### Final model
-* Selected Model: Random Forest Regressor
-* R2 Score: 0.934961
-* RMSE: 221269.461390
-* MAE: 100074.031143
+**Selected Model:** Random Forest Regressor
+**R2 Score:** 0.934961
+**RMSE:** 221269.461390
+**MAE:** 100074.031143
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
