@@ -77,7 +77,8 @@ The project demonstrates the complete machine learning lifecycle, including data
 
 ### EDA Techniques Used
 - Correlation heatmap.
-- Fuel type, transmission type, and seller type analysis.
+- Price distribution by fuel type, transmission, and seller type.
+
 
 <img width="1035" height="522" alt="brand" src="https://github.com/user-attachments/assets/b043a036-584e-46f0-996b-d9bb449ff967" />
 
