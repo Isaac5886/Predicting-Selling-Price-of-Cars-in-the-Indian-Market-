@@ -79,8 +79,8 @@ The project demonstrates the complete machine learning lifecycle, including data
 - Correlation heatmap.
 - Fuel type, transmission type, and seller type analysis.
 
-  ![image](Predicting-Selling-Price-of-Cars-in-the-Indian-Market-
-/brand.png)
+  ![image](https://github.com/Isaac5886/brand/Predicting-Selling-Price-of-Cars-in-the-Indian-Market-
+  .png)
 
 # 🤖 Machine Learning Models Used
 * ElasticNet Regression
