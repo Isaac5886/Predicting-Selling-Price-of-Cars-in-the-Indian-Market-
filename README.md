@@ -82,18 +82,25 @@ The project demonstrates the complete machine learning lifecycle, including data
 
 <img width="1035" height="522" alt="brand" src="https://github.com/user-attachments/assets/b043a036-584e-46f0-996b-d9bb449ff967" />
 
+<br><br
+
 <img width="1092" height="552" alt="fuel_type" src="https://github.com/user-attachments/assets/5e9bc4f2-7228-45ab-9e5b-37bc4977707c" />
+
+<br><br
 
 <img width="1037" height="547" alt="Transaction_type" src="https://github.com/user-attachments/assets/8364a17e-cdc9-48e8-9501-62c7c7de9bf6" />
 
+<br><br
+
 <img width="847" height="617" alt="seller_type" src="https://github.com/user-attachments/assets/8788bce1-9ed5-4aad-9e20-6da6303f5d4c" />
+
+<br><br
 
 <img width="1050" height="530" alt="model" src="https://github.com/user-attachments/assets/4b0fa948-196a-4867-bf0a-750b5f4a5673" />
 
+<br><br
+
 <img width="925" height="692" alt="correlation heatmap" src="https://github.com/user-attachments/assets/51b09da0-a4aa-4da7-a319-c588de400b23" />
-
-
-
 
 
 
@@ -162,15 +169,15 @@ http://localhost:8501
 
 <img width="1920" height="808" alt="app1" src="https://github.com/user-attachments/assets/62c63829-bd85-4bff-a852-309482bf1c2c" />
 
-<br<br>
+<br><br>
 
 <img width="1907" height="872" alt="app2" src="https://github.com/user-attachments/assets/7110fb54-160b-48eb-be2c-380ab35702fc" />
 
-<br<br>
+<br><br>
 
 <img width="1911" height="863" alt="app3" src="https://github.com/user-attachments/assets/8dde83ec-9817-4b8b-8ea5-0b72f2cd1ff5" />
 
-<br<br>
+<br><br>
 
 <img width="1913" height="863" alt="app4" src="https://github.com/user-attachments/assets/3953fc36-a42d-4ac1-b237-94f78dad0ec7" />
 
