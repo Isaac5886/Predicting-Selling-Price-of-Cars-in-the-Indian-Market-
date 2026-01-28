@@ -107,8 +107,10 @@ The project demonstrates the complete machine learning lifecycle, including data
 
 - **MAE:** 100074.031143
 
+  *Note: Random Forest achieved the best offline performance, while Gradient Boosting was deployed for production.
+
 # 🚀 Model Deployment Decision
-Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits. Gradient Boosting Regressor is selected due to smaller model size and deployment constraints.
+Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits. Gradient Boosting Regressor was selected due to its smaller model size and suitability deployment.
 
 # 🌐 Streamlit Web Application
 
