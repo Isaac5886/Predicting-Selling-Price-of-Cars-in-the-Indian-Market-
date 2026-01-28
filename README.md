@@ -81,6 +81,8 @@ The project demonstrates the complete machine learning lifecycle, including data
 
   ![image](https://github.com/Isaac5886/Predicting-Selling-Price-of-Cars-in-the-Indian-Market-
 /blog/main/app1.png)
+  <img width="1898" height="932" alt="app1" src="https://github.com/user-attachments/assets/e68452a4-18a6-4bd3-b6cb-54d4d1ad4553" />
+
 
 # 🤖 Machine Learning Models Used
 * ElasticNet Regression
