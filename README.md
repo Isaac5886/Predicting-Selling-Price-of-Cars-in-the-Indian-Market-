@@ -93,21 +93,36 @@ The objective of this project is to build a machine learning model that predicts
 
 ### Final model
 **Selected Model:** Random Forest Regressor
+
 **R2 Score:** 0.934961
+
 **RMSE:** 221269.461390
+
 **MAE:** 100074.031143
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
 
-# ✅ Gradient Boosting Regressor was selected for deployment because:
-* High predictive performance
-* Smaller model size
-* Suitable for Streamlit deployment
-
-  ## 🌐 Web Application (Streamlit)
+# 🌐 Web Application (Streamlit)
 
 The trained Gradient Boosting Regressor was deployed as an interactive web application using **Streamlit**.
+
+# 🧪 How to Run the Project
+
+1. Install required packages:
+```Bash
+pip install -r requirements.txt
+```
+2. Run the Streamlit app:
+
+ ````Bash
+streamlit run app.py
+````
+3. Access the Web Application:
+
+ ````Bash
+http://localhost:8501
+````
 
 ### 🔗 Live App
 👉 https://indian-app.streamlit.app
@@ -127,22 +142,6 @@ The trained Gradient Boosting Regressor was deployed as an interactive web appli
 * Jupyter Notebook
 * Pickle (model saving)
 
-# 🧪 How to Run the Project
-
-1. Install required packages:
-```Bash
-pip install -r requirements.txt
-```
-2. Run the Streamlit app:
-
- ````Bash
-streamlit run app.py
-````
-3. Access the Web Application:
-
- ````Bash
-http://localhost:8501
-````
 
 ## 📌 Future Improvements
 - Perform hyperparameter tuning to improve regression performance (R², RMSE, MAE).
