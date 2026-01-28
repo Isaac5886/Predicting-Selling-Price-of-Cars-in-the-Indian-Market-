@@ -169,12 +169,12 @@ http://localhost:8501
 
 # 🛠️ Tech Stack
 * Python
-* Pandas, NumPy, Matplotlib & Seaborn
+* Pandas, NumPy, Matplotlib, Seaborn
 * Scikit-learn
 * XGBoost
-* Streamlit (for web app deployment)
+* Streamlit
 * Jupyter Notebook
-* Pickle (model saving)
+* Pickle (model serialization)
 
 
 ## 📌 Future Improvements
