@@ -57,16 +57,22 @@ The objective of this project is to build a machine learning model that predicts
 - Fixed random state used for reproducibility.
 
 # 🔍 Exploratory Data Analysis (EDA)
-* Engine size and max power show strong positive correlation with selling price.
-* Vehicle age and mileage are negatively correlated with selling price.
-* Luxury brands (Ferrari, Rolls-Royce, Bentley) command the highest prices.
-* Electric vehicles show higher average prices compared to petrol and diesel.
-* Dealer-listed cars tend to have higher prices than individual sellers.
+*🔍 Exploratory Data Analysis (EDA)
 
-# EDA techniques used:
-* Correlation heatmap.
-* Brand-wise and Model-wise price comparison.
-* Fuel type, transmission type, and seller type analysis.
+### EDA Approach
+- **Descriptive Statistics:** Summarized central tendency and dispersion for numerical features.
+- **Data Visualization:** Used histograms, box plots, scatter plots, and bar charts to identify trends and anomalies.
+
+### Key Insights
+- Engine size and max power show strong positive correlation with selling price.
+- Vehicle age and mileage are negatively correlated with selling price.
+- Luxury brands (Ferrari, Rolls-Royce, Bentley) command the highest prices.
+- Electric vehicles show higher average prices compared to petrol and diesel.
+- Dealer-listed cars tend to have higher prices than individual sellers.
+
+### EDA Techniques Used
+- Correlation heatmap.
+- Fuel type, transmission type, and seller type analysis.
 
 # 🤖 Machine Learning Models Used
 * ElasticNet Regression
