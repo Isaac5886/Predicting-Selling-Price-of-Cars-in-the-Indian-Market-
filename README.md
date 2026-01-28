@@ -2,7 +2,7 @@
 A machine learning regression project for predicting used car prices in the Indian market.
 
 ## Table of Contents
-- [Project Overview] (#-project-overview)
+- [Project Overview](#-project-overview)
 - Dataset Description
 - Data Preprocessing
 - Exploratory Data Analysis
