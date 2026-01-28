@@ -133,6 +133,11 @@ pip install -r requirements.txt
  ````Bash
 streamlit run app.py
 ````
+3. Access the Web Application:
+
+ ````Bash
+http://localhost:8501
+````
 
 ## 📌 Future Improvements
 - Perform hyperparameter tuning to improve regression performance (R², RMSE, MAE).
