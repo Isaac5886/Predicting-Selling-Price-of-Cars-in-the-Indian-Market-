@@ -135,10 +135,10 @@ http://localhost:8501
 👉 https://indian-app.streamlit.app
 
 ### 📌 Application Features
-- User-friendly interface for entering car specifications
-- Real-time selling price prediction
-- Supports multiple car attributes such as fuel type, transmission, mileage, engine power, and vehicle age
-- Lightweight and fast inference suitable for web deployment
+- User-friendly interface for entering car specifications.
+- Real-time selling price prediction.
+- Supports multiple car attributes such as fuel type, transmission, mileage, engine power, and vehicle age.
+- Lightweight and fast inference suitable for web deployment.
 
 # 🛠️ Tech Stack
 * Python
@@ -152,7 +152,7 @@ http://localhost:8501
 
 ## 📌 Future Improvements
 - Perform hyperparameter tuning to improve regression performance (R², RMSE, MAE).
-- Apply model compression techniques to enable Gradient Boosting Regressor deployment.
+- Apply model compression techniques to enable Random Forest Regressor deployment.
 - Integrate live car listing APIs for real-time price estimation.
 - Add support for multiple currencies.
 - Provide confidence intervals for predicted prices.
