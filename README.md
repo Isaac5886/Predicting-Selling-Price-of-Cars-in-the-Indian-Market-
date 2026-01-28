@@ -57,7 +57,6 @@ The objective of this project is to build a machine learning model that predicts
 - Fixed random state used for reproducibility.
 
 # 🔍 Exploratory Data Analysis (EDA)
-- Key Insights
 * Engine size and max power show strong positive correlation with selling price.
 * Vehicle age and mileage are negatively correlated with selling price.
 * Luxury brands (Ferrari, Rolls-Royce, Bentley) command the highest prices.
@@ -77,10 +76,6 @@ The objective of this project is to build a machine learning model that predicts
 * Random Forest Regressor
 
 # 📈 Model Evaluation
-Evaluation metrics used:
-* MAE (Mean Absolute Error)
-* RMSE (Root Mean Squared Error)
-* R² Score
 
 ### Model Performance Comparison
   
@@ -91,6 +86,10 @@ Evaluation metrics used:
 |	XGBRegressor |	100771.484375	| 249650.981460	| 0.917206 |
 |	Gradient Boosting	| 129058.187362	| 247909.754467 | 	0.918357
 |	**Random Forest Regressor**|	**100074.031143**	| **221269.461390**	|**0.934961**⭐|
+
+### Final model
+. Selected Model: Random Forest Regressor
+. Reason: Highest R2 and lowest MAE/RMSE across all evaluations
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
@@ -124,7 +123,7 @@ The trained Gradient Boosting Regressor was deployed as an interactive web appli
 
 # 🧪 How to Run the Project
 
-1. Install required packkages:
+1. Install required packages:
 ```Bash
 pip install -r requirements.txt
 ```
