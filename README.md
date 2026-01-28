@@ -88,8 +88,8 @@ The objective of this project is to build a machine learning model that predicts
 |	**Random Forest Regressor**|	**100074.031143**	| **221269.461390**	|**0.934961**⭐|
 
 ### Final model
-. Selected Model: Random Forest Regressor
-. Reason: Highest R2 and lowest MAE/RMSE across all evaluations
+* Selected Model: Random Forest Regressor
+* Reason: Highest R2 and lowest MAE/RMSE across all evaluations
 
 # 🚀 Model Deployment Decision
 Although Random Forest Regressor achieved the best performance, it was not deployed due to large model size (~ 95MB), which exceeds GitHub hosting limits.
