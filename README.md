@@ -123,20 +123,24 @@ The trained Gradient Boosting Regressor was deployed as an interactive web appli
 * Pickle (model saving)
 
 # 🧪 How to Run the Project
+
+1. Install required packkages:
 ```Bash
 pip install -r requirements.txt
+```
+2. Run the Streamlit app:
+   ````
 streamlit run app.py
 ````
 
-# 📌 Future Improvements
 ## 📌 Future Improvements
 - Perform hyperparameter tuning to improve regression performance (R², RMSE, MAE).
-- Apply model compression techniques to enable Gradient Boosting Regressor deployment
-- Integrate live car listing APIs for real-time price estimation
-- Add support for multiple currencies
-- Provide confidence intervals for predicted prices
-- Deploy the Streamlit application on AWS EC2 for improved scalability and reliability
-- Store trained models in AWS S3 for version control and persistent storage
+- Apply model compression techniques to enable Gradient Boosting Regressor deployment.
+- Integrate live car listing APIs for real-time price estimation.
+- Add support for multiple currencies.
+- Provide confidence intervals for predicted prices.
+- Deploy the Streamlit application on AWS EC2 for improved scalability and reliability.
+- Store trained models in AWS S3 for version control and persistent storage.
 
 # 👤 Author
 Agboola Isaacoluwatomiwa
